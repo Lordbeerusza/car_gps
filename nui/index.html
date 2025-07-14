@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Live Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container" id="tracker" style="display: none;">
+    <h2><i class="fas fa-map-marker-alt"></i> Vehicle Tracker</h2>
+    <label for="plateSelect">Select Vehicle Plate:</label>
+    <select id="plateSelect"></select>
+    <div class="actions">
+      <button onclick="trackVehicle()" class="btn primary"><i class="fas fa-location-arrow"></i> Track Vehicle</button>
+      <button onclick="closeUI()" class="btn secondary"><i class="fas fa-times"></i> Close</button>
+    </div>
+  </div>
+
+  <div class="container" id="noGPS" style="display: none;">
+    <h2><i class="fas fa-ban"></i> No Tracker Installed</h2>
+    <p>You have no vehicles with A Tracker installed.</p>
+    <button onclick="closeUI()" class="btn secondary"><i class="fas fa-times"></i> Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

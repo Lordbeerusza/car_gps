@@ -40,3 +40,5 @@ A simple and lightweight GPS tracking system for FiveM servers using QBCore. Thi
 🤝 Credits
 Developed by Noor Taliep
 Feel free to contribute or fork for improvements!
+Demo Video
+https://youtu.be/tg6DvbZgOQQ

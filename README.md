@@ -27,11 +27,27 @@ A simple and lightweight GPS tracking system for FiveM servers using QBCore. Thi
 
 1. **Download & Extract:**
    Place the `car_gps` folder into your `resources` directory.
+2. **Copy & Paste this item code into your items.lua:**
+    ["gps"] = {
+    ['name'] = "gps",
+    ['label'] = "GPS Tracker",
+    ['weight'] = 200,
+    ['type'] = "item",
+    ['image'] = "gps.png",
+    ['unique'] = false,
+    ['useable'] = false,
+    ['shouldClose'] = true,
+    ['combinable'] = nil,
+    ['description'] = "Used to track vehicles remotely."
+},
+3. **Save & Paste PNG Into your images folder:**
 
-2. **Import SQL:**
+<img width="100" height="100" alt="gps" src="https://github.com/user-attachments/assets/9ef3c5bd-3ee1-4aea-b46f-38a0ff889966" />
+
+3. **Import SQL:**
    Import the `car_gps.sql` into your database using phpMyAdmin or a tool like HeidiSQL.
 
-3. **Add to `server.cfg`:**
+4. **Add to `server.cfg`:**
 
    ```cfg
    ensure car_gps

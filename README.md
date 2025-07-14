@@ -35,3 +35,8 @@ A simple and lightweight GPS tracking system for FiveM servers using QBCore. Thi
 
    ```cfg
    ensure car_gps
+
+
+🤝 Credits
+Developed by Noor Taliep
+Feel free to contribute or fork for improvements!
